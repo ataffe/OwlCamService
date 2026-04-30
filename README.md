@@ -5,6 +5,9 @@ This web service handles registering / logging in users, and CRUD operations for
 All endpoints are secured using JWTs and the service is currently designed to be used with postgres version 18+ because it uses the
 UUIDv7 function.
 
+# System Diagram
+![Scout Cam System Diagram](images/ScoutCamSystemDiagram_web_service.png)
+
 # API URL Reference
 
 ## Authentication
